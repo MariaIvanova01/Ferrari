@@ -1,8 +1,13 @@
 package ferrari;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Scanner scan = new Scanner(System.in);
+
+        Car ferrari = new Ferrari(scan.nextLine());
+        System.out.println(ferrari);
     }
 }
